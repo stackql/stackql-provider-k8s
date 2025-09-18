@@ -1,0 +1,28 @@
+{
+  "name": "stackql-provider-digitalocean",
+  "version": "0.1.0",
+  "description": "StackQL Provider for Digital Ocean",
+  "type": "module",
+  "scripts": {
+    "generate-docs": "./bin/generate-docs.sh",
+    "split": "./bin/split.sh",
+    "generate-mappings": "./bin/generate-mappings.sh",
+    "generate-provider": "./bin/generate-provider.sh",
+    "start-server": "bash ./bin/start-server.sh",
+    "stop-server": "bash ./bin/stop-server.sh",
+    "server-status": "bash ./bin/server-status.sh",
+    "test-meta-routes": "node ./bin/test-meta-routes.cjs"
+  },
+  "dependencies": {
+    "@stackql/pgwire-lite": "^1.0.1",
+    "@stackql/provider-utils": "^0.4.6"
+  },
+  "keywords": [
+    "stackql",
+    "digitalocean",
+    "provider"
+  ],
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}

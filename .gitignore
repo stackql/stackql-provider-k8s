@@ -1,0 +1,86 @@
+main.zip
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Hatch/Poetry build artifacts
+dist/
+build/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test cache and coverage
+.coverage
+.cache/
+pytest_cache/
+htmlcov/
+**/__pycache__
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output directory
+output/
+
+# Misc
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# stackql
+.stackql/
+stackql
+stackql-zip
+stackql-aws-cloud-shell.sh
+stackql-azure-cloud-shell.sh
+stackql-google-cloud-shell.sh
+.env
+nohup.out
+
+# node
+# Ignore node_modules in all directories
+**/node_modules/
+
+# Ignore build outputs in all directories
+**/dist/
+**/build/
+**/.next/
+**/.cache/
+**/.turbo/
+
+# Ignore log files
+**/npm-debug.log
+**/yarn-debug.log
+**/yarn-error.log
+**/pnpm-debug.log
+
+# Ignore lock files (optional if you don't want to commit them)
+# Uncomment if you want to ignore lock files:
+# **/package-lock.json
+# **/yarn.lock
+# **/pnpm-lock.yaml
+
+# Ignore dotenv files (if secrets are present)
+**/.env
+**/.env.*.local
+
+# Ignore coverage and test output
+**/coverage/
+**/test-output/
+# Ignore everything in source directory except .gitkeep
+source/*
